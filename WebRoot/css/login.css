@@ -1,0 +1,99 @@
+html{
+   background: url(../images/login_bg.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+body{
+}
+div {  
+    display: block;  
+} 
+.login_bg{
+}
+div.form{
+position:relative;
+margin-left: auto;
+margin-right: auto;
+background:url(../images/login_frame.png) no-repeat;
+background-size:cover;
+}
+.login_title{
+position:relative;
+top:85px;
+margin-left: auto;
+margin-right: auto;
+width:350px;
+height:30px;
+color:#373535;
+font-size:28px;
+font-family:微软雅黑,"Microsoft YaHei","MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+}
+.login_userName{
+position:relative;
+top:55px;
+left:15%;
+font-weight:bold;
+}
+.login_password{
+position:relative;
+top:70px;
+left:15%;
+font-weight:bold;
+}
+.login_verify{
+position:relative;
+top:85px;
+left:15%;
+font-weight:bold;
+}
+input.verify{
+width:70px;
+}
+.login_button{
+position:absolute;
+bottom:20%;
+left:30%;
+right:30%;
+font-weight:bold;
+font-size:20px;
+}
+div.login_userName,div.login_password,div.login_button{
+}
+div input{
+position:relative;
+left:30px;
+top:-2px;
+}
+input.text{
+width:210px;
+height:19px;
+}
+input.submit{
+height:30px;
+width:79px;
+background:url(../images/button_submit.png);
+background-repeat: no-repeat;
+background-position: left top; 
+background-color:transparent;         
+border:0px;
+}
+input.reset{
+height:30px;
+width:79px;
+position:relative;
+left:10%;
+background:url(../images/button_reset.png);
+background-repeat: no-repeat;
+background-position: left top; 
+background-color:transparent;         
+border:0px;
+}
+img.logo{
+height:49px;
+}
+img.verifyCode{
+position:relative;
+left:5%;
+}
